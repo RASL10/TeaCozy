@@ -1,3 +1,4 @@
+                      /*ELEMENTS*/
 body {
   font-family: helvetica;
   font-size: 22px;
@@ -35,10 +36,8 @@ footer {
     text-align: left;
     padding-left: 20px;
 }
-#contact h2, h3, h4 {
-  margin: 0px;
-  padding: 10px;
-}
+
+                    /*CLASSES*/
 
 .logo {
   padding-left: 10px;
@@ -47,15 +46,10 @@ footer {
   flex-grow: 1;
 }
 
-.logo img {
-  height: 50px;
-}
-
 .content {
   background-color: black;
   width: 100%;
   margin: auto;
-
 }
 
 .flex-container {
@@ -68,6 +62,21 @@ footer {
   padding: 5px;
 }
 
+.location {
+  opacity: 1;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+              /*ELEMENTS INSIDE OF CLASSES*/
+.logo img {
+  height: 50px;
+}
 .item span {
   padding: 5px;
   display: block;
@@ -80,6 +89,8 @@ footer {
   display: block;
   margin: 10px;
 }
+
+                          /*IDs*/
 
 #mission {
   background-image: url("../images/img-mission-background.jpg");
@@ -109,13 +120,9 @@ footer {
   height: 200px;
 }
 
-.location {
-  opacity: 1;
-  background-color: black;
-  flex-basis: 280px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* ELEMENTS INSIDE OF IDs*/
+
+#contact h2, h3, h4 {
+  margin: 0px;
   padding: 10px;
-  margin: 5px 20px;
 }
