@@ -23,7 +23,7 @@ nav {
   display: flex;
 }
 
-nav li {
+nav span {
   text-decoration: underline;
   align-items: center;
 }
