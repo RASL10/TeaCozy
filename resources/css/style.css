@@ -56,8 +56,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
+
 .item {
   padding: 5px;
 }
@@ -77,6 +77,7 @@ footer {
 .logo img {
   height: 50px;
 }
+
 .item span {
   padding: 5px;
   display: block;
@@ -96,7 +97,6 @@ footer {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   padding-top: 70px
-
 }
 
 #store {
