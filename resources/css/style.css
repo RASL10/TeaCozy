@@ -26,6 +26,7 @@ nav {
 nav span {
   text-decoration: underline;
   align-items: center;
+  padding: 20px 10px;
 }
 
 .logo {
