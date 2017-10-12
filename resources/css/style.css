@@ -17,11 +17,24 @@ header {
   width: 100%;
 }
 
-.logo {
-  height: 50px;
-  padding-left: 10px;
+nav {
+  padding: 20px;
+  align-items: center;
+  display: flex;
 }
 
 nav li {
   text-decoration: underline;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
 }
