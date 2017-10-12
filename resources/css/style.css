@@ -4,6 +4,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 header {
@@ -15,6 +16,7 @@ header {
   border-bottom: 1px solid seashell;
   z-index: 1;
   width: 100%;
+  margin-top: -8px;
 }
 
 nav {
@@ -53,10 +55,33 @@ nav span {
   justify-content: center;
 
 }
+.item {
+  padding: 5px;
+}
+
+.item span {
+  padding: 5px;
+  display: block;
+  font-weight: bold;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
 
 #mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   padding-top: 70px
 
+}
+
+#store {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
 }
