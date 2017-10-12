@@ -109,10 +109,6 @@ footer {
   height: 200px;
 }
 
-.flex-container .locations {
-  padding-top: 5px;
-}
-
 .location {
   opacity: 1;
   background-color: black;
